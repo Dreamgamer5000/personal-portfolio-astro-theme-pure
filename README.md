@@ -61,3 +61,12 @@ Thanks to cworld1 and all other developers behind this.
 
 This project is license will be changed (prolly GPL)
 
+## add stuff in 
+ - src/pages/photographs/index.astro
+ - recipes
+
+## information Changes required in
+ - src/pages/projects/index.astro
+ - src/pages/about/index.astro
+ - src/pages/links/index.astro
+ - src/pages/index.astro
