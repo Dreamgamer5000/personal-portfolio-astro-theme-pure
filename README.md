@@ -1,54 +1,23 @@
-# Astro Theme Pure
+# Personal Portfolio - Astro Theme Pure
 
-English | [简体中文](./README-zh-CN.md)
-
-A simple, fast and powerful blog & document theme built by Astro.
-
-[![GitHub deployments](https://img.shields.io/github/deployments/cworld1/astro-theme-pure/production?style=flat&logo=vercel&label=vercel)](https://astro-pure.js.org/)
-[![NPM Version](https://img.shields.io/npm/v/astro-pure?logo=npm&style=flat)](https://www.npmjs.com/package/astro-pure)
-[![GitHub Release](https://img.shields.io/github/v/release/cworld1/astro-theme-pure?include_prereleases&style=flat&label=template)](https://github.com/cworld1/astro-theme-pure/releases)
-[![GitHub License](https://img.shields.io/github/license/cworld1/astro-theme-pure?style=flat)](https://github.com/cworld1/astro-theme-pure/blob/main/LICENSE)
-
-![image](./.github/assets/header.webp)
-![image](./.github/assets/body.webp)
+A simple, fast and powerful blog & document theme built by Astro. 
 
 > [!NOTE]
 > Known issues: Header & customize options is still under development (template exposed still).
 
 ## Introduction
 
-Checkout [Demo Site →](https://astro-pure.js.org/)
+Hi, This is Rejit aka dream, god knows how long I have wanted a personal website, this is a start. And this time I plan to look it all through,  understanding this codebase and seeking much less AI help possible. I wanna be responsible for what breaks in here. 
 
-### :fire: Features
-
-- [x] :rocket: Fast & high performance
-- [x] :star: Simple & clean design
-- [x] :iphone: Responsive design
-- [x] :mag: Full-site search built with [pagefind](https://pagefind.app/)
-- [x] :world_map: Sitemap & RSS feed
-- [x] :spider_web: SEO-friendly
-- [x] :book: TOC (table of contents)
-- [x] :framed_picture: Dynamic open graph generation for posts
-- [x] :framed_picture: Mediumzoom lightbox for images
-
-### :package: Components
+### :package: Components ( for me to remember )
 
 Theme includes a lot of components, which can not only be used in the theme, but also in other astro projects.
-
-> For other astro projects, UnoCSS is required. See [Package README](https://github.com/cworld1/astro-theme-pure/blob/main/packages/pure/README.md#use-with-common-astro-project) for more details.
 
 - Basic components: `Aside`, `Tabs`, `Timeline`, `Steps`, `Spoiler`...
 - Advanced components: `GithubCard`, `LinkPreview`, `Quote`, `QRCode`...
 
-### :white_check_mark: Lighthouse score
 
-[![lighthouse-score](./.github/assets/lighthouse-score.png)](https://pagespeed.web.dev/analysis/https-cworld-top/o229zrt5o4?form_factor=mobile&hl=en)
-
-## Documentation
-
-[Docs](https://astro-pure.js.org/docs) | [Showcase](https://github.com/cworld1/astro-theme-pure/issues/10)
-
-## Package
+## Package ( not sure if i should remove bun and use npm, i remember doing it before and it breaking cuz of it)
 
 See [astro-theme-pure](https://www.npmjs.com/package/astro-pure) on npm.
 
@@ -58,14 +27,14 @@ Environment requirements:
 
 - [Nodejs](https://nodejs.org/): 18.0.0+
 
-Clone the repository:
+if you want my look you can clone this repository:
 
 ```shell
-git clone https://github.com/cworld1/astro-theme-pure.git
-cd astro-theme-pure
+gh repo clone Dreamgamer5000/personal-portfolio-astro-theme-pure
+cd personal-portfolio-astro-theme-pure
 ```
 
-Useful commands:
+Useful commands for now:
 
 ```shell
 # Install dependencies
@@ -80,20 +49,15 @@ bun preview
 bun pure new
 ```
 
-## Contributions
-
-To spend more time coding and less time fiddling with whitespace, this project uses code conventions and styles to encourage consistency. Code with a consistent style is easier (and less error-prone!) to review, maintain, and understand.
-
 ## Thanks
 
-- [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus)
-- [Astro Resume](https://github.com/srleom/astro-theme-resume)
-- [Starlight](https://github.com/withastro/starlight)
+Thanks to cworld1 and all other developers behind this.
 
-Other third party references are on [Docs#Contributions](https://astro-pure.js.org/docs/advanced/about). Appreciate for all open source libraries.
+- [Astro theme pure](https://github.com/cworld1/astro-theme-pure)
+- Checkout [original Site →](https://astro-pure.js.org/)
+
 
 ## License
 
-This project is licensed under the Apache 2.0 License.
+This project is license will be changed (prolly GPL)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=cworld1/astro-theme-pure&type=Date)](https://star-history.com/#cworld1/astro-theme-pure&Date)
