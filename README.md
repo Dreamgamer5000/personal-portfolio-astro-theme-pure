@@ -63,10 +63,25 @@ This project is license will be changed (prolly GPL)
 
 ## add stuff in 
  - src/pages/photographs/index.astro
+    - requires a page design
  - recipes
+    will be added to blogs with tags
 
 ## information Changes required in
  - src/pages/projects/index.astro
  - src/pages/about/index.astro
  - src/pages/links/index.astro
- - src/pages/index.astro
+
+## quotes api to use
+- https://github.com/lukePeavey/quotable
+
+## UI todo
+- [ ] Main page 
+    - [ ]  edit posts
+    - [ ] project links
+    - [ ] quote api
+- [ ] Blog page
+    - remove posts and add my own. 
+- [ ] project page
+    - [ ] slow laoding
+
