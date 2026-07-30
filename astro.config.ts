@@ -1,9 +1,10 @@
 import { rehypeHeadingIds } from '@astrojs/markdown-remark'
-import vercel from '@astrojs/vercel'
 import AstroPureIntegration from 'astro-pure'
 import { defineConfig, fontProviders } from 'astro/config'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
+import cloudflare from '@astrojs/cloudflare';
+// Remove this line if it's still there: import vercel from '@astrojs/vercel'
 
 // Local integrations
 import rehypeAutolinkHeadings from './src/plugins/rehype-auto-link-headings.ts'
@@ -40,7 +41,9 @@ export default defineConfig({
 
   // [Adapter]
   // https://docs.astro.build/en/guides/deploy/
-  adapter: vercel({ imageService: true }),
+  adapter: cloudflare({
+    imageService: 'cloudflare', // Optional: Use Cloudflare's image optimization
+  }),
   output: 'server',
   // Local (standalone)
   // adapter: node({ mode: 'standalone' }),
